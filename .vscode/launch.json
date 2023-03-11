@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example-executable-package (example-executable-package)",
+            "program": "${workspaceFolder:100-days-of-swift}\\example-executable-package\\.build/debug/example-executable-package",
+            "args": [],
+            "cwd": "${workspaceFolder:100-days-of-swift}/example-executable-package",
+            "preLaunchTask": "swift: Build Debug example-executable-package (example-executable-package)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release example-executable-package (example-executable-package)",
+            "program": "${workspaceFolder:100-days-of-swift}\\example-executable-package\\.build/release/example-executable-package",
+            "args": [],
+            "cwd": "${workspaceFolder:100-days-of-swift}/example-executable-package",
+            "preLaunchTask": "swift: Build Release example-executable-package (example-executable-package)"
+        }
+    ]
+}
